@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">3 suites</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite__1_">
+              <span class="suite-name border-passed">Suite (1)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite__1_">
+                    <span>MyProfile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite__1_">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite__1_">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite__1_">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite__1_">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite__1_">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite__1_">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite__1_" class="hide-methods passed suite-Suite__1_"> (hide)</a> <!-- hide-methods passed suite-Suite__1_ -->
+                      <a href="#" panel-name="suite-Suite__1_" class="show-methods passed suite-Suite__1_"> (show)</a> <!-- show-methods passed suite-Suite__1_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite__1_">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__1_" title="com.dollardays.testcases.MyProfileTestcase" hash-for-method="Email_Preferences_userEmail_Validation({SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetN...)">Email_Preferences_userEmail_Validation({SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__1_" title="com.dollardays.testcases.MyProfileTestcase" hash-for-method="MyProfileLoginInfoEmailAddressValidation({SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=passw...)">MyProfileLoginInfoEmailAddressValidation({SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=passw...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__1_" title="com.dollardays.testcases.MyProfileTestcase" hash-for-method="MyProfile_Login_Information_Validation({SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=T...)">MyProfile_Login_Information_Validation({SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=T...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__1_" title="com.dollardays.testcases.MyProfileTestcase" hash-for-method="Personal_Information_Validation({SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, ...)">Personal_Information_Validation({SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__1_" title="com.dollardays.testcases.MyProfileTestcase" hash-for-method="emailPreferences_Checkbox_Validation({SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14,...)">emailPreferences_Checkbox_Validation({SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite__1_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite__0_">
+              <span class="suite-name border-passed">Suite (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite__0_">
+                    <span>AccountOverview.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite__0_">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite__0_">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite__0_">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite__0_">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite__0_">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite__0_">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite__0_" class="hide-methods passed suite-Suite__0_"> (hide)</a> <!-- hide-methods passed suite-Suite__0_ -->
+                      <a href="#" panel-name="suite-Suite__0_" class="show-methods passed suite-Suite__0_"> (show)</a> <!-- show-methods passed suite-Suite__0_ -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite__0_">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite__0_" title="com.dollardays.testcases.AccOverviewTaxExemTestcase" hash-for-method="AccountOverviewPageEditLinkVerify({TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesti...)">AccountOverviewPageEditLinkVerify({TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesti...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite__0_ -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+        </div> <!-- panel Suite -->
+        <div panel-name="suite-Suite__1_" class="panel Suite__1_">
+          <div class="suite-Suite__1_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.MyProfileTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Email_Preferences_userEmail_Validation({SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetN...)">
+                  </a> <!-- Email_Preferences_userEmail_Validation({SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetN...) -->
+                  <span class="method-name">Email_Preferences_userEmail_Validation</span>
+                  <span class="parameters">({SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetName=MyProfile, Runmode=no, CurrentPassword=, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfileLoginInfoEmailAddressValidation({SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=passw...)">
+                  </a> <!-- MyProfileLoginInfoEmailAddressValidation({SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=passw...) -->
+                  <span class="method-name">MyProfileLoginInfoEmailAddressValidation</span>
+                  <span class="parameters">({SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=password567, TCID=TC1, SheetName=MyProfile, Runmode=yes, CurrentPassword=shikha001, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfile_Login_Information_Validation({SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=T...)">
+                  </a> <!-- MyProfile_Login_Information_Validation({SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=T...) -->
+                  <span class="method-name">MyProfile_Login_Information_Validation</span>
+                  <span class="parameters">({SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=TC3, SheetName=MyProfile, Runmode=yes, CurrentPassword=xyz, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Personal_Information_Validation({SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, ...)">
+                  </a> <!-- Personal_Information_Validation({SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, ...) -->
+                  <span class="method-name">Personal_Information_Validation</span>
+                  <span class="parameters">({SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, TCID=TC7, SheetName=MyProfile, Runmode=yes, CurrentPassword=, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=Sharma, FirstName=shikha, ExtNo=1234.0, PrimaryPhoneNo=2.3456789E9, =, EmailPrefCheckBox=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emailPreferences_Checkbox_Validation({SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14,...)">
+                  </a> <!-- emailPreferences_Checkbox_Validation({SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14,...) -->
+                  <span class="method-name">emailPreferences_Checkbox_Validation</span>
+                  <span class="parameters">({SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14, SheetName=MyProfile, Runmode=yes, CurrentPassword=, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=checked})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite__1_-class-passed -->
+        </div> <!-- panel Suite__1_ -->
+        <div panel-name="suite-Suite__0_" class="panel Suite__0_">
+          <div class="suite-Suite__0_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dollardays.testcases.AccOverviewTaxExemTestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccountOverviewPageEditLinkVerify({TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesti...)">
+                  </a> <!-- AccountOverviewPageEditLinkVerify({TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesti...) -->
+                  <span class="method-name">AccountOverviewPageEditLinkVerify</span>
+                  <span class="parameters">({TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesting100@gmail.com, TCID=TC1, =})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite__0_-class-passed -->
+        </div> <!-- panel Suite__0_ -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chandaverma/git/14Dec/DollerDays_14Dec/config/DDAccOverviewAndMyProfile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;AccountOverview.xml&quot;/&gt;
+    &lt;suite-file path=&quot;MyProfile.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chandaverma/git/14Dec/DollerDays_14Dec/config/MyProfile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite (1)&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dollar Days Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.MyProfileTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dollar Days Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite (1) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chandaverma/git/14Dec/DollerDays_14Dec/config/AccountOverview.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite (0)&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dollar Days Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.AccOverviewTaxExemTestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dollar Days Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dollar Days Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dollar Days Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite__1_');
+function tableData_Suite__1_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Personal_Information_Validation')
+data.setCell(0, 2, 'com.dollardays.testcases.MyProfileTestcase')
+data.setCell(0, 3, 22923);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'MyProfile_Login_Information_Validation')
+data.setCell(1, 2, 'com.dollardays.testcases.MyProfileTestcase')
+data.setCell(1, 3, 22217);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Email_Preferences_userEmail_Validation')
+data.setCell(2, 2, 'com.dollardays.testcases.MyProfileTestcase')
+data.setCell(2, 3, 21549);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'emailPreferences_Checkbox_Validation')
+data.setCell(3, 2, 'com.dollardays.testcases.MyProfileTestcase')
+data.setCell(3, 3, 20320);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MyProfileLoginInfoEmailAddressValidation')
+data.setCell(4, 2, 'com.dollardays.testcases.MyProfileTestcase')
+data.setCell(4, 3, 19596);
+window.suiteTableData['Suite__1_']= { tableData: data, tableDiv: 'times-div-Suite__1_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite__1_">
+              </div> <!-- times-div-Suite__1_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite__0_');
+function tableData_Suite__0_() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AccountOverviewPageEditLinkVerify')
+data.setCell(0, 2, 'com.dollardays.testcases.AccOverviewTaxExemTestcase')
+data.setCell(0, 3, 39163);
+window.suiteTableData['Suite__0_']= { tableData: data, tableDiv: 'times-div-Suite__0_'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <div id="times-div-Suite__0_">
+              </div> <!-- times-div-Suite__0_ -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (1)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite__1_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.MyProfileTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfileLoginInfoEmailAddressValidation({SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=passw...)</span>
+                <span class="method-start">3681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">23278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">23453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfile_Login_Information_Validation({SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=T...)</span>
+                <span class="method-start">26792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">49013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">49193 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Personal_Information_Validation({SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, ...)</span>
+                <span class="method-start">52991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">75917 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">76091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Email_Preferences_userEmail_Validation({SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetN...)</span>
+                <span class="method-start">80099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">101651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">101809 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emailPreferences_Checkbox_Validation({SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14,...)</span>
+                <span class="method-start">105360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">125682 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite__0_" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.AccOverviewTaxExemTestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AccountOverviewPageEditLinkVerify({TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesti...)</span>
+                <span class="method-start">4187 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">43353 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2020-12-21T13:09:12 CST" finished-at="2020-12-21T13:09:12 CST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="125865" started-at="2020-12-21T13:07:06 CST" finished-at="2020-12-21T13:09:12 CST">
+    <groups>
+    </groups>
+    <test name="Dollar Days Test" duration-ms="125865" started-at="2020-12-21T13:07:06 CST" finished-at="2020-12-21T13:09:12 CST">
+      <class name="com.dollardays.testcases.MyProfileTestcase">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="setUpBrowser" is-config="true" duration-ms="3681" started-at="2020-12-21T13:07:06 CST" finished-at="2020-12-21T13:07:10 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="MyProfileLoginInfoEmailAddressValidation(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="MyProfileLoginInfoEmailAddressValidation" duration-ms="19596" started-at="2020-12-21T13:07:10 CST" data-provider="dd-dataprovider" finished-at="2020-12-21T13:07:29 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecPhoneNo=, NewPassword=password567, TestCase=Valid Details in Login Info, ReTypeNewPassword=password567, TCID=TC1, SheetName=MyProfile, Runmode=yes, CurrentPassword=shikha001, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfileLoginInfoEmailAddressValidation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="quit" is-config="true" duration-ms="109" started-at="2020-12-21T13:07:29 CST" finished-at="2020-12-21T13:07:29 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="setUpBrowser" is-config="true" duration-ms="3339" started-at="2020-12-21T13:07:29 CST" finished-at="2020-12-21T13:07:33 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="MyProfile_Login_Information_Validation(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="MyProfile_Login_Information_Validation" duration-ms="22217" started-at="2020-12-21T13:07:33 CST" data-provider="dd-dataprovider" finished-at="2020-12-21T13:07:55 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecPhoneNo=, NewPassword=abc, TestCase=Invalid Details in Login Info, ReTypeNewPassword=abc, TCID=TC3, SheetName=MyProfile, Runmode=yes, CurrentPassword=xyz, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfile_Login_Information_Validation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="quit" is-config="true" duration-ms="135" started-at="2020-12-21T13:07:55 CST" finished-at="2020-12-21T13:07:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="setUpBrowser" is-config="true" duration-ms="3797" started-at="2020-12-21T13:07:55 CST" finished-at="2020-12-21T13:07:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="Personal_Information_Validation(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="Personal_Information_Validation" duration-ms="22923" started-at="2020-12-21T13:07:59 CST" data-provider="dd-dataprovider" finished-at="2020-12-21T13:08:22 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecPhoneNo=9.87654321E8, NewPassword=, TestCase=Valid Details in PersonalInfo, ReTypeNewPassword=, TCID=TC7, SheetName=MyProfile, Runmode=yes, CurrentPassword=, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=Sharma, FirstName=shikha, ExtNo=1234.0, PrimaryPhoneNo=2.3456789E9, =, EmailPrefCheckBox=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Personal_Information_Validation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="quit" is-config="true" duration-ms="129" started-at="2020-12-21T13:08:22 CST" finished-at="2020-12-21T13:08:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="setUpBrowser" is-config="true" duration-ms="4008" started-at="2020-12-21T13:08:22 CST" finished-at="2020-12-21T13:08:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="Email_Preferences_userEmail_Validation(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="Email_Preferences_userEmail_Validation" duration-ms="21549" started-at="2020-12-21T13:08:26 CST" data-provider="dd-dataprovider" finished-at="2020-12-21T13:08:48 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecPhoneNo=, NewPassword=, TestCase=Valid Username Verifying, ReTypeNewPassword=, TCID=TC13, SheetName=MyProfile, Runmode=no, CurrentPassword=, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email_Preferences_userEmail_Validation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="quit" is-config="true" duration-ms="120" started-at="2020-12-21T13:08:48 CST" finished-at="2020-12-21T13:08:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="setUpBrowser" is-config="true" duration-ms="3551" started-at="2020-12-21T13:08:48 CST" finished-at="2020-12-21T13:08:51 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="emailPreferences_Checkbox_Validation(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="emailPreferences_Checkbox_Validation" duration-ms="20320" started-at="2020-12-21T13:08:51 CST" data-provider="dd-dataprovider" finished-at="2020-12-21T13:09:12 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SecPhoneNo=, NewPassword=, TestCase= Valid Details in EmailPrefinfo, ReTypeNewPassword=, TCID=TC14, SheetName=MyProfile, Runmode=yes, CurrentPassword=, UserName=srikanthtesting100@gmail.com, Password=cGFzc3dvcmQxMjM=, LastName=, FirstName=, ExtNo=, PrimaryPhoneNo=, =, EmailPrefCheckBox=checked}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailPreferences_Checkbox_Validation -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MyProfileTestcase@7ff2a664]" name="quit" is-config="true" duration-ms="114" started-at="2020-12-21T13:09:12 CST" finished-at="2020-12-21T13:09:12 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.MyProfileTestcase -->
+    </test> <!-- Dollar Days Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="43950" started-at="2020-12-21T13:06:22 CST" finished-at="2020-12-21T13:07:06 CST">
+    <groups>
+    </groups>
+    <test name="Dollar Days Test" duration-ms="43950" started-at="2020-12-21T13:06:22 CST" finished-at="2020-12-21T13:07:06 CST">
+      <class name="com.dollardays.testcases.AccOverviewTaxExemTestcase">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.AccOverviewTaxExemTestcase@314c508a]" name="setUpBrowser" is-config="true" duration-ms="4186" started-at="2020-12-21T13:06:22 CST" finished-at="2020-12-21T13:06:26 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="AccountOverviewPageEditLinkVerify(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.AccOverviewTaxExemTestcase@314c508a]" name="AccountOverviewPageEditLinkVerify" duration-ms="39163" started-at="2020-12-21T13:06:26 CST" data-provider="dd-dataprovider" finished-at="2020-12-21T13:07:05 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=ValidData, Password=cGFzc3dvcmQxMjM=, Runmode=yes, SheetName=Login, UserName=srikanthtesting100@gmail.com, TCID=TC1, =}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountOverviewPageEditLinkVerify -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.AccOverviewTaxExemTestcase@314c508a]" name="quit" is-config="true" duration-ms="137" started-at="2020-12-21T13:07:05 CST" finished-at="2020-12-21T13:07:06 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.dollardays.testcases.AccOverviewTaxExemTestcase -->
+    </test> <!-- Dollar Days Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
